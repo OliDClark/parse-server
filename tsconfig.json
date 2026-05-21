@@ -13,7 +13,8 @@
     "strict": true,
     "skipLibCheck": true,
     "moduleDetection": "force",
-    "isolatedModules": true
+    "isolatedModules": true, 
+    "ignoreDeprecations": "6.0"
   },
   "include": [
     "**/*.ts"
