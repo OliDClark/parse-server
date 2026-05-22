@@ -5,6 +5,7 @@ export const config = {
     process.env.DATABASE_URI || process.env.MONGODB_URI || 'mongodb://localhost:27017/dev',
   cloud: () => import('./cloud/main.js'),
   appId: process.env.APP_ID || 'myAppId',
+  javascriptKey: process.env.JAVASCRIPT_KEY || 'myJavascriptKey',
   masterKey: process.env.MASTER_KEY || '', //Add your master key here. Keep it secret!
   serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse', // Don't forget to change to https if needed
   liveQuery: {
